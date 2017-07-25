@@ -27,6 +27,7 @@ call plug#end()
 
 " Leader
 let mapleader = " "
+let &runtimepath .= "," . $DOTFILES . "/nvim"  " Add DOTFILES to runtimepath
 
 " Set bash as the prompt for Vim
 set shell=/usr/local/bin/zsh
