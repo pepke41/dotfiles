@@ -51,7 +51,7 @@ ZSH_THEME="bullet-train"
 plugins=(git)
 
 # User configuration
-export PATH="$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.rbenv/shims:$HOME/.homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # ssh
